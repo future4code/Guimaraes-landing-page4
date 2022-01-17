@@ -13,14 +13,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
 }
 
 .logo-f4bank {
     height: 100px;
-    width: 150px;
+    width: 100px;
     cursor: pointer;
     margin: 50px 0;
+    border-radius: 100px;
     
 }
 
@@ -50,15 +56,15 @@
     font-size: 14px;
 } 
 .menu-navegar ul li a:hover{
-    color: #ff5ea2;
+    color: #ff9f46;
 }
 
 .coluna {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
-    border-top: 1px solid #ff469f;
+    margin-top: 200px;
+    border-top: 2.5px solid #ff9f46;
 
 }
 
@@ -66,7 +72,8 @@
     flex-basis: 40%;
     position: relative;
     margin-left: 50px;
-    
+    margin-top: 200px;
+        
 }
 
 .coluna1 h2 {
@@ -100,22 +107,21 @@ button {
     padding: 12px 10px;
     outline: none;
     color: whitesmoke;
-    background: linear-gradient(to right, #fb5283, #ff3527);
+    background: linear-gradient(to right, #F57C0B, #EBA769);
     transition: width 0.5s ease;
 }
 
 button:hover {
     width: 160px;
     display: flex;
-    align-items: cent;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .coluna1::after{
     content: '';
     width: 10px;
     height: 75%;
-    background: linear-gradient(#ff469f, #ff6062);
+    background: linear-gradient(#F57C0B, #FA983C, #EBA769);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -173,7 +179,7 @@ button:hover {
        position: absolute;
        left: 0;
        bottom: -10px;
-       background-color: #e91e63;
+       background-color: #ff9f46;
        height: 2px;
        box-sizing: border-box;
        width: 50px;
@@ -248,5 +254,3 @@ button:hover {
         margin-bottom: 30px;
      }
  }
-
-   }
