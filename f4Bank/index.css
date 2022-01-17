@@ -107,8 +107,7 @@ button {
 button:hover {
     width: 160px;
     display: flex;
-    align-items: cent;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .coluna1::after{
@@ -248,5 +247,3 @@ button:hover {
         margin-bottom: 30px;
      }
  }
-
-   }
