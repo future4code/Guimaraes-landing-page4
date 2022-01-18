@@ -32,11 +32,18 @@
 
 <div class="coluna" id="home">
     <div class="coluna1">
-        <h2>F4Bank<br>home</h2>
-        <!-- <h3>Cartão de Crédito sem Taxas.</h3> -->
-        <!-- <p>Todos os serviços na palma da sua mao.</p> -->
-        <!-- <button type="button">Eu quero!</button> -->
+        <h2>F4Bank<br>O futuro é a razãp que a gente faz planos.</h3>
+        <h3>Escolha o futuro. Comece a controlar melhor sua vida finaceira com o F4Bank</h4>
     </div>
+
+    <form class="form-container">
+        <div class="form-container-itens">
+            <input id="cpf" class="no-outline" type="text" placeholder="informe seu CPF">
+            </br>
+            </br>
+            <!-- <button type="button">continuar</button> -->
+        </div>
+    </form>
     <!-- <div class="coluna2">
         <img class="banco-digital" src="https://www.aspiresys.com/design-your-own-digital-bank-with-temenos/images/dyob-banking-de.png">
     </div> -->
@@ -44,10 +51,12 @@
 
 <div class="coluna" id="quemSomos">
     <div class="coluna1">
-        <h2>F4Bank<br>Quem Somos</h2>
-        <!-- <h3>Cartão de Crédito sem Taxas.</h3>
-        <p>Todos os serviços na palma da sua mao.</p> -->
-        <!-- <button type="button">Eu quero!</button> -->
+        <article class="coluna1-article">
+            <div class="article-container">
+                <div class="container-title">Construindo o futuro</div>
+                <div class="container-description"></div>
+            </div>
+        </article>
     </div>
     <div class="coluna2">
         <!-- <img class="banco-digital" src="https://www.aspiresys.com/design-your-own-digital-bank-with-temenos/images/dyob-banking-de.png"> -->
@@ -143,7 +152,7 @@
 
         var menuList = document.getElementById("menuList");
         menuList.style.maxHeight = "0px";
-        function togglemenu() {
+        function togglemenu(){
             if(menuList.style.maxHeight == "0px")
             {
                 menuList.style.maxHeight = "130px"
