@@ -127,6 +127,16 @@ button:hover {
     top: 8px;
 }
 
+#coluna1-quemSomos::before{
+    content: '';
+    width: 10px;
+    height: 75%;
+    background: linear-gradient(#F57C0B, #FA983C, #EBA769);
+    position: absolute;
+    right: -80px;
+    top: 8px;
+}
+
 .coluna2 {
     position: relative;
     flex-basis: 60%;
@@ -264,12 +274,29 @@ button:hover {
         margin-right: 20vw;
    }
 
-   .container-title{
+   .article-container{
+       align-items: center;
+       text-align: center;
        grid-column-start: 1;
-       grid-column-end: 2;
-       grid-row-start: 1;
-       grid-row-end: 1;
+       grid-column-end: 3;
    }
+
+   .article-container > h2{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: solid;
+        border-color: #ff9f46;
+   }
+
+   .article-container > p{
+        font-size: 16px;
+   }
+
+   
+   #quemSomos{
+    height: 300px;
+}
 
    /*responsive*/
 
