@@ -127,6 +127,16 @@ button:hover {
     top: 8px;
 }
 
+#coluna1-quemSomos::before{
+    content: '';
+    width: 10px;
+    height: 75%;
+    background: linear-gradient(#F57C0B, #FA983C, #EBA769);
+    position: absolute;
+    right: -80px;
+    top: 8px;
+}
+
 .coluna2 {
     position: relative;
     flex-basis: 60%;
@@ -138,6 +148,36 @@ button:hover {
     width: 100%;
 
 }
+
+.form-container{
+    position: relative;
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vw;
+}
+
+
+.form-container-itens > input{
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 1px solid black;
+    width: 35vh ;
+}
+
+.form-container-itens > button{
+    border-radius: 20px;
+}
+
+.no-outline:focus{
+    outline: none;
+}
+
    .container-footer {
        max-width: 1170px;
        margin: auto;
@@ -222,6 +262,41 @@ button:hover {
        color: grey;
        background-color: whitesmoke;
    }
+
+
+   .coluna1-article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr;
+        width: 50vw;
+        height: 25vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+   }
+
+   .article-container{
+       align-items: center;
+       text-align: center;
+       grid-column-start: 1;
+       grid-column-end: 3;
+   }
+
+   .article-container > h2{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: solid;
+        border-color: #ff9f46;
+   }
+
+   .article-container > p{
+        font-size: 16px;
+   }
+
+   
+   #quemSomos{
+    height: 300px;
+}
 
    /*responsive*/
 
