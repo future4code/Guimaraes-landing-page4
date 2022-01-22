@@ -424,6 +424,11 @@ ul {
     height: 100%;
 }
 
+.logo-f4bank{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
 
 /*responsive*/
 
